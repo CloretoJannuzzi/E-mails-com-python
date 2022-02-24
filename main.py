@@ -4,7 +4,7 @@ import win32com.client as win32
 import time
 
 # Importar a base de dados do excel
-tab_vendas = pd.read_excel("python\windowspy\e_mail\Vendas.xlsx")
+tab_vendas = pd.read_excel("python\windowspy\e_mail\Vendas.xlsx") #aqui você põe o caminho do arquivo em Excel, mesmo que esteja na mesma pasta
 
 # Vizualizar a base de dados
 pd.set_option('display.max_columns', None)
