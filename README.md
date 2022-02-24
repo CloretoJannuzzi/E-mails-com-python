@@ -1,6 +1,6 @@
 # E-mails(🐍)
 ### Puxa dados de um arquivo do excel, trata eles e envia por e-mail.
-_<a href =''> Clique aqui para ver o código!</a>_
+_<a href ='![image](https://user-images.githubusercontent.com/100159466/155594168-cf19503d-c8d2-46a2-a196-1238dabf938e.png)'> Clique aqui para ver o código!</a>_
 
 - Tem o objetivo para automação de serviços, usando o agendador de tarefas do windows.
 - Ele envia o e-mail com os dados da planilha.
