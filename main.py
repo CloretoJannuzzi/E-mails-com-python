@@ -1,9 +1,10 @@
 # Importar bibliotecas
 import pandas as pd
 import win32com.client as win32
+import time
 
 # Importar a base de dados do excel
-tab_vendas = pd.read_excel('Vendas.xlsx')
+tab_vendas = pd.read_excel("python\windowspy\e_mail\Vendas.xlsx")
 
 # Vizualizar a base de dados
 pd.set_option('display.max_columns', None)
@@ -19,19 +20,19 @@ print(produtos)
 
 # Ticket médio por produto em cada loja
 # pegar o valor final e quantidade das tabelas
-print('-' * 50)
-ticket = faturamento['Valor Final'] / produtos['Quantidade'].to_frame()
+ticket = (faturamento['Valor Final'] / produtos['Quantidade']).to_frame()
 ticket = ticket.rename(columns={0: 'Ticket Médio'})
 print(ticket)
+
 
 # Enviar um e-mail como relatório
 
 outlook = win32.Dispatch('Outlook.application')
-mail = outlook.CreateItem(0)
-mail.to = 'cloretojannuzzi@outlook.com'
-mail.subject = 'Relátorio de Vendas'
-mail.HTMLBody = f'''
-<p>Olá, segue abaixo o Relátório de Vendas por cada Loja:</p>
+email = outlook.CreateItem(0)
+email.to = 'cloretojannuzzi@outlook.com'
+email.subject = 'Relátorio de Vendas'
+email.HTMLBody = f'''
+<p>Olá, segue abaixo o Relátório de cada Loja:</p>
 
 <p>Faturamento:</p>
 {faturamento.to_html(formatters={'Valor Final': 'R${:,.2f}'.format})}
@@ -43,9 +44,10 @@ mail.HTMLBody = f'''
 {ticket.to_html(formatters={'Ticket Médio': 'R${:,.2f}'.format})}
 
 <p>Qualquer dúvida só me retornar!</p>
-
 <p>Att,</p>
 <p>Cloreto Jannuzzi.</p>
 
 '''
-mail.Send()
+email.display()
+time.sleep(2)
+email.send()
