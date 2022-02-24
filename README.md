@@ -1,4 +1,4 @@
-# E-mails automático com(🐍)
+# E-mails automático com 🐍
 ### Puxa dados de um arquivo do excel, filtra esse dados e os envia por e-mail em tabelas.
 _<a href = 'https://github.com/CloretoJannuzzi/E-mails-com-python/blob/main/main.py'> Clique aqui para ver o código!</a>_
 
