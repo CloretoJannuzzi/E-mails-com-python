@@ -23,8 +23,7 @@ ticket = (faturamento['Valor Final'] / produtos['Quantidade']).to_frame()
 ticket = ticket.rename(columns={0: 'Ticket Médio'})
 
 # formar somente uma tabela, juntar ticket medio e as outras colunas.
-tab = tab_vendas[['ID Loja', 'Valor Final',
-                  'Quantidade', ]].groupby('ID Loja').sum()
+tab = tab_vendas[['ID Loja', 'Valor Final', 'Quantidade', ]].groupby('ID Loja').sum()
 
 fusao = pd.merge(tab, ticket,  how='inner', on='ID Loja')  # Fusão das tabelas
 
