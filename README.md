@@ -10,7 +10,7 @@ _<a href = 'https://github.com/CloretoJannuzzi/E-mails-com-python/blob/main/main
 ### Prévia:
 _Só é mostrado uma tabela na imagem, porém as outras também aparecem no e-mail._
 
-_A segunda imagem é referente ao arquivo mainalternative.py_
+_A segunda imagem é referente ao arquivo mainalternative.py, porém não está com os números formatados._
 
 ![image](https://user-images.githubusercontent.com/100159466/155591903-35b2c8e1-1db8-43e9-b691-d168c9fc0a63.png)
 ![image](https://user-images.githubusercontent.com/100159466/155755670-4eacc211-c6ee-49b2-b25f-a7fc1bbc6370.png)
