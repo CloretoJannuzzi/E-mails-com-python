@@ -2,6 +2,10 @@
 ### Puxa dados de um arquivo do excel, filtra esse dados e os envia por e-mail em tabelas.
 _<a href = 'https://github.com/CloretoJannuzzi/E-mails-com-python/blob/main/main.py'> Clique aqui para ver o código!</a>_
 
+_<a href = "https://github.com/CloretoJannuzzi/Python-dados-via-e-mail/blob/main/mainAlternative.py">Clique aqui para ver o código com todos os dados em uma tabela! </a>_
+
+_Obs: imagens de acordo com a sequência dos links._
+
 - Tem o objetivo para automação de serviços, usando o agendador de tarefas do windows.
 - Ele envia o e-mail com os dados da planilha.
 - Código simples.
