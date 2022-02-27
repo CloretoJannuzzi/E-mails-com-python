@@ -36,7 +36,7 @@ email.to = 'cloretojannuzzi@outlook.com'
 email.subject = 'Relátorio de Vendas'
 email.HTMLBody = f'''
     <p>Olá, segue abaixo o Relátório de cada Loja:</p>
-    {fusao.to_html(formatters={'Valor final': 'R${:,.2f}'.format})} 
+    {fusao.to_html(formatters={'Valor final': 'R${:.,2f}'.format})} 
 
     <p>Qualquer dúvida só me retornar!</p>
     <p>Att,</p>
