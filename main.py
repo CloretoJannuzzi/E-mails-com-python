@@ -35,13 +35,13 @@ email.HTMLBody = f'''
 <p>Olá, segue abaixo o Relátório de cada Loja:</p>
 
 <p>Faturamento:</p>
-{faturamento.to_html(formatters={'Valor Final': 'R${:,.2f}'.format})}
+{faturamento.to_html(formatters={'Valor Final': 'R${:.,2f}'.format})}
 
 <p>Quantidade Vendida:</p>
 {produtos.to_html()}
 
 <p>Ticket médio dos produtos:</p>
-{ticket.to_html(formatters={'Ticket Médio': 'R${:,.2f}'.format})}
+{ticket.to_html(formatters={'Ticket Médio': 'R${:.,2f}'.format})}
 
 <p>Qualquer dúvida só me retornar!</p>
 <p>Att,</p>
