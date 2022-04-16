@@ -20,4 +20,4 @@ _A segunda imagem é referente ao arquivo mainalternative.py, porém não está 
 ![image](https://user-images.githubusercontent.com/100159466/155755670-4eacc211-c6ee-49b2-b25f-a7fc1bbc6370.png)
 
 
-_OBS: aprendi o código com o canal hastag programação e a planilha possui 100mil linhas, caso queria utilizar para testes. Fiz pequenas alterações no código e criei um main alternativo para tentar aperfeiçoar ainda mais o e-mail, como mostra a segunda imagem. _
+_OBS: aprendi o código com o canal hastag programação e a planilha possui 100mil linhas, caso queria utilizar para testes. Fiz pequenas alterações no código e criei um main alternativo para tentar aperfeiçoar ainda mais o e-mail, como mostra a segunda imagem._
